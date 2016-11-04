@@ -148,11 +148,14 @@ aside {
 	text-align: center;
 	position: relative;
 	top: -80px;
+	width: 175px;
+	margin-left: 50px;
 }
-#description{
-	width: 185px;
+
+/*#description{
+	width: 175px;
 	margin-left: 50px
-}
+}*/
 
 .img a:hover {
 	opacity: 0.40;
@@ -180,7 +183,8 @@ aside {
 }
 .port-image {
 	padding: 0 0 0 50px;
-	width: 185px;
+	width: 175px;
+	height: 250px;
 }
 	
 }
@@ -214,6 +218,12 @@ input[type=text] {
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 16px;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 1.5px solid #4aaaa5;
+    transition: border 1s;
 }
 
 textarea {
@@ -225,8 +235,12 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    outline: none;
+}
 
-
+textarea:focus {
+	border: 1.5px solid #4aaaa5;
+    transition: border 1s;
 }
 
 label {
